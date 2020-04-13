@@ -1,0 +1,17 @@
+{
+    "InfoThreshold": 8000,
+    "WarnThreshold": 3000,
+    "CritThreshold": 50,
+    "RebootEnabled": true,
+    "SMTP":{
+        "Server": "smtp.server.com",
+        "From": "dynamicports@email.com",
+        "To":[
+            "email1@email.com",
+            "email2@email.com"
+        ]
+
+    },
+    "LogName": "System",
+    "Provider": "DynamicPortsWarn"
+}
